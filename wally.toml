@@ -5,7 +5,20 @@ version = "1.0.1"
 license = "MIT"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
-exclude = ["test_default.project.json"]
-include = ["src", "LICENSE", "default.project.json", "CHANGELOG.md"]
+exclude = [
+    "rblxbuilds",
+    ".gitignore",
+    "test_default.project.json",
+    "VHSClient.rbxm",
+    "aftman.toml",
+    "selene.toml",
+    "stylua.toml"
+]
+include = [
+    "src",
+    "LICENSE",
+    "default.project.json",
+    "CHANGELOG.md"
+]
 
 [dependencies]
