@@ -1,0 +1,11 @@
+[package]
+name = "birarux/vhsclient"
+description = "An easy to use VHS client module with extensive features that allows you to create VHS effects."
+version = "1.0.1"
+license = "MIT"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+exclude = ["test_default.project.json"]
+include = ["src", "LICENSE", "default.project.json", "CHANGELOG.md"]
+
+[dependencies]
