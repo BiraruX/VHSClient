@@ -87,7 +87,6 @@ local function setup()
 
 	task.spawn(function()
 		while true do
-			print(VHSLocal.Enabled)
 			if
 				not ((VHSLocal.Enabled.Gui.Self and VHSLocal.Enabled.Gui.Noise) and (VHSGui.Enabled and Noise.Visible))
 			then
